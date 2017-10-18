@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Performing a search" tests="4" skipped="0" failures="0" errors="0" timestamp="2017-10-18T08:47:50" hostname="xxj.local" time="3.387">
+  <properties/>
+  <testcase name="Given I am on the search page" classname="Scenario: Performing a search" time="0.0"/>
+  <testcase name="When I enter &quot;webdriverIO&quot; into the search box" classname="Scenario: Performing a search" time="0.0"/>
+  <testcase name="And I click the search button" classname="Scenario: Performing a search" time="0.0"/>
+  <testcase name="classMethod" classname="Scenario: Performing a search" time="7.053"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.33.506106 (8a06c39c4582fbfbab6966dbb1c38a9173bfb1a2) on port 31524
+Only local connections are allowed.
+Oct 18, 2017 4:47:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+</testsuite>

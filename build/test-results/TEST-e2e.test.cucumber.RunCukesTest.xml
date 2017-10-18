@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="e2e.test.cucumber.RunCukesTest" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="xxj.local" time="0.0">
+  <properties/>
+  <system-out><![CDATA[Feature: Gradle-Cucumber integration
+
+  Scenario: Just a failing scenario ?[90m# sample.feature:3?[0m
+    ?[32mWhen ?[0m?[32mI run a failing step?[0m       ?[90m# SampleSteps.I_run_a_failing_step()?[0m
+@search
+Feature: Performing a Google Search
+  
+  As a user on the google search page
+  I want to search for WebdriverIO
+  Because I want to learn more about it
+
+  Background:                     ?[90m# search.feature:8?[0m
+    ?[32mGiven ?[0m?[32mI am on the search page?[0m ?[90m# SearchSteps.i_am_on_the_search_page()?[0m
+
+  Scenario: Performing a search                    ?[90m# search.feature:11?[0m
+    ?[32mWhen ?[0m?[32mI enter "?[0m?[32m?[1mwebdriverIO?[0m?[32m" into the search box?[0m ?[90m# SearchSteps.i_enter_into_the_search_box(String)?[0m
+    ?[32mAnd ?[0m?[32mI click the search button?[0m                  ?[90m# SearchSteps.i_click_the_search_button()?[0m
+
+2 Scenarios (?[32m2 passed?[0m)
+4 Steps (?[32m4 passed?[0m)
+0m7.120s
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
