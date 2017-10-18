@@ -23,7 +23,7 @@ formatter.match({
   "location": "SampleSteps.I_run_a_failing_step()"
 });
 formatter.result({
-  "duration": 72168638,
+  "duration": 87946254,
   "status": "passed"
 });
 formatter.uri("search.feature");
@@ -56,7 +56,7 @@ formatter.match({
   "location": "SearchSteps.i_am_on_the_search_page()"
 });
 formatter.result({
-  "duration": 3665679414,
+  "duration": 3680995720,
   "status": "passed"
 });
 formatter.scenario({
@@ -87,14 +87,14 @@ formatter.match({
   "location": "SearchSteps.i_enter_into_the_search_box(String)"
 });
 formatter.result({
-  "duration": 2106423910,
+  "duration": 2113479329,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchSteps.i_click_the_search_button()"
 });
 formatter.result({
-  "duration": 1276199602,
+  "duration": 1514570969,
   "status": "passed"
 });
 });

@@ -2,15 +2,14 @@ package e2e.test.cucumber;
 
 import config.helper;
 import cucumber.api.Scenario;
-import org.junit.After;
-import org.junit.Before;
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.LocalFileDetector;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.net.MalformedURLException;
