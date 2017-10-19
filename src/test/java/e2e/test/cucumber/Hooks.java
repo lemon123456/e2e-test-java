@@ -23,7 +23,7 @@ public class Hooks {
 
     @Before
     public void openBrowser() {
-        System.out.println("Called openBrowser");
+        System.out.println("*************" + "Called openBrowser" + "**********************");
         if (isRemoteDriver) {
             try {
                 DesiredCapabilities capabilities = DesiredCapabilities.chrome();

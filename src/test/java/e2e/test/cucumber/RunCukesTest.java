@@ -9,6 +9,6 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features/",
         format = { "pretty","html: cucumber-html-reports"},
         dryRun = false,
-        glue = "e2e.test.cucumber.step_definitions")
+        glue = "e2e.test.cucumber")
 public class RunCukesTest {
 }

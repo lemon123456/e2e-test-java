@@ -6,6 +6,10 @@ formatter.feature({
   "id": "gradle-cucumber-integration",
   "keyword": "Feature"
 });
+formatter.before({
+  "duration": 1125174593,
+  "status": "passed"
+});
 formatter.scenario({
   "line": 3,
   "name": "Just a failing scenario",
@@ -23,7 +27,11 @@ formatter.match({
   "location": "SampleSteps.I_run_a_failing_step()"
 });
 formatter.result({
-  "duration": 87946254,
+  "duration": 71923255,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 71831625,
   "status": "passed"
 });
 formatter.uri("search.feature");
@@ -39,6 +47,10 @@ formatter.feature({
       "name": "@search"
     }
   ]
+});
+formatter.before({
+  "duration": 720667303,
+  "status": "passed"
 });
 formatter.background({
   "line": 8,
@@ -56,7 +68,7 @@ formatter.match({
   "location": "SearchSteps.i_am_on_the_search_page()"
 });
 formatter.result({
-  "duration": 3680995720,
+  "duration": 3996857768,
   "status": "passed"
 });
 formatter.scenario({
@@ -87,14 +99,18 @@ formatter.match({
   "location": "SearchSteps.i_enter_into_the_search_box(String)"
 });
 formatter.result({
-  "duration": 2113479329,
+  "duration": 109726085,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchSteps.i_click_the_search_button()"
 });
 formatter.result({
-  "duration": 1514570969,
+  "duration": 3883174507,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 70454367,
   "status": "passed"
 });
 });

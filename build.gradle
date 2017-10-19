@@ -22,7 +22,7 @@ task cucumber() {
             classpath configurations.cucumberRuntime
             classpath sourceSets.main.output.classesDir
             classpath sourceSets.test.output.classesDir
-            args = ['-f', 'pretty', '--glue', 'e2e.test.cucumber.step_definitions', 'src/test/resources/features']
+            args = ['-f', 'pretty', '--glue', 'e2e.test.cucumber', 'src/test/resources/features']
 
         }
     }
